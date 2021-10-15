@@ -3,11 +3,10 @@ package br.com.alura.crud.form;
 import br.com.alura.crud.modelo.Curso;
 import br.com.alura.crud.modelo.Topico;
 import br.com.alura.crud.repository.CursoRepository;
-import br.com.alura.crud.repository.TopicoRepository;
-import com.sun.istack.NotNull;
 import org.hibernate.validator.constraints.Length;
 
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 
 public class TopicoForm {
 
